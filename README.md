@@ -62,6 +62,7 @@ mvn test
 mvn test -Dtest=Practice
 
 📝 Dependências do Projeto
+
 As dependências estão configuradas no arquivo pom.xml:
 
 <dependencies>
@@ -87,7 +88,9 @@ As dependências estão configuradas no arquivo pom.xml:
     </dependency>
 </dependencies>
 
+
 📌 Observações
+
 Todos os testes são executados com dados simples e estáticos.
 
 A API utilizada é pública e pode retornar resultados inconsistentes dependendo do estado atual do sistema.
