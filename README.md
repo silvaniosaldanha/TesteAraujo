@@ -48,8 +48,9 @@ Maven instalado
 IDE de sua preferência (IntelliJ, Eclipse, etc.)
 
 Como Executar os Testes
+
 1- Clone o repositório:
-git clone []
+git clone [https://github.com/silvaniosaldanha/TesteAraujo]
 
 2-Navegue até o diretório do projeto:
 cd teste-araujo
