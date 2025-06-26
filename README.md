@@ -1,6 +1,24 @@
 📌 Visão Geral
 Este projeto implementa testes automatizados utilizando Java + TestNG + RestAssured para a API pública [Swagger Petstore](https://petstore.swagger.io/).
 
+✅ Casos de Teste Implementados
+
+1. **Cadastrar novo pedido de pet com sucesso**  
+   ➤ Método: `POST`  
+   ➤ Endpoint: `/store/order`
+
+2. **Pesquisar por um pet inexistente**  
+   ➤ Método: `GET`  
+   ➤ Endpoint: `/pet/{petId}`
+
+3. **Atualizar dados de um pet existente**  
+   ➤ Método: `PUT`  
+   ➤ Endpoint: `/pet`
+
+4. **Pesquisar por pets com status “pending”**  
+   ➤ Método: `GET`  
+   ➤ Endpoint: `/pet/findByStatus?status=pending`
+
 🛠 Tecnologias Utilizadas
 
 Java 17
@@ -10,32 +28,18 @@ Maven
 JSON-Simple 1.1.1
 
 📁 Estrutura de Pastas
-teste-araujo/
-├── src/
-│   ├── main/
-│   │   └── java/
-│   │       └── desafioTecnico/
-│   │           ├── Category.java
-│   │           ├── Pet.java
-│   │           ├── Store.java
-│   │           └── Tag.java
-│   └── test/
-│       └── java/
-│           └── desafioTecnico/
-│               └── Practice.java
-├── target/
-├── pom.xml
-└── .gitignore
-
-📋 Casos de Teste Implementados
-
-Cadastrar novo pedido de pet com sucesso (POST /store/order)
-
-Pesquisar por um pet inexistente (GET /pet/{petId})
-
-Atualizar dados de um pet existente (PUT /pet)
-
-Pesquisar por pets com status "pending" (GET /pet/findByStatus)
+src/
+├── main/
+│ └── java/
+│ └── desafioTecnico/
+│ ├── Category.java
+│ ├── Pet.java
+│ ├── Store.java
+│ ├── Tag.java
+├── test/
+│ └── java/
+│ └── desafioTecnico/
+│ └── Practice.java
 
 ⚙️ Configuração do Ambiente
 Pré-requisitos: 
@@ -81,24 +85,6 @@ As dependências estão configuradas no arquivo pom.xml:
         <version>1.1.1</version>
     </dependency>
 </dependencies>
-
-✅ Casos de Teste Implementados
-
-1. **Cadastrar novo pedido de pet com sucesso**  
-   ➤ Método: `POST`  
-   ➤ Endpoint: `/store/order`
-
-2. **Pesquisar por um pet inexistente**  
-   ➤ Método: `GET`  
-   ➤ Endpoint: `/pet/{petId}`
-
-3. **Atualizar dados de um pet existente**  
-   ➤ Método: `PUT`  
-   ➤ Endpoint: `/pet`
-
-4. **Pesquisar por pets com status “pending”**  
-   ➤ Método: `GET`  
-   ➤ Endpoint: `/pet/findByStatus?status=pending`
 
 📌 Observações
 Todos os testes são executados com dados simples e estáticos.
