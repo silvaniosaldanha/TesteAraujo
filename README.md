@@ -65,6 +65,8 @@ mvn test -Dtest=Practice
 
 As dependências estão configuradas no arquivo pom.xml:
 
+
+
 <dependencies>
     <dependency>
         <groupId>org.testng</groupId>
@@ -87,6 +89,9 @@ As dependências estão configuradas no arquivo pom.xml:
         <version>1.1.1</version>
     </dependency>
 </dependencies>
+
+
+
 
 
 📌 Observações
